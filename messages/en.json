@@ -1,0 +1,90 @@
+{
+    "HomePage": {
+        "title": "SDIT Annur",
+        "subtitle": "Building a Noble, Intelligent, and Independent Generation",
+        "cta_admission": "Admissions",
+        "cta_profile": "School Profile"
+    },
+    "Navigation": {
+        "home": "Home",
+        "profile": "Profile",
+        "program": "Program",
+        "facilities": "Facilities",
+        "contact": "Contact"
+    },
+    "AboutSection": {
+        "title": "About Our School",
+        "description": "SDIT Annur is dedicated to providing high-quality Islamic integrated education.",
+        "value_1_title": "Islamic Character",
+        "value_1_desc": "Instilling strong faith and Islamic values in every student.",
+        "value_2_title": "Academic Excellence",
+        "value_2_desc": "National curriculum enriched with innovative learning methods.",
+        "value_3_title": "Character Building",
+        "value_3_desc": "Developing independence, discipline, and social responsibility.",
+        "stats_students": "Active Students",
+        "stats_teachers": "Teachers & Staff",
+        "stats_activities": "Extracurriculars",
+        "stats_awards": "Awards Won"
+    },
+    "ProgramsSection": {
+        "title": "Education Programs",
+        "subtitle": "Combining national curriculum with Islamic values for holistic education.",
+        "academic_title": "Academic Curriculum",
+        "academic_desc": "Mandatory learning according to government programs (Kurikulum Merdeka) emphasizing literacy and numeracy.",
+        "religious_title": "Islamic & Character Programs",
+        "religious_desc": "Building character and spirituality through daily habits.",
+        "items": {
+            "morning": "Morning: Asmaul Husna, Short Surahs, Daily Prayers & Dhuha Prayer",
+            "general": "General Learning Integrated with Islamic Values",
+            "afternoon": "Afternoon: Quran Education (TPA) & PPG Material Deepening",
+            "prayer": "Congregational Dhuhr Prayer at Mosque",
+            "language": "Habituation of Polite Javanese Language (Basa Krama)",
+            "character": "Strengthening of 29 Noble Characters",
+            "sports": "Martial Arts & Sports (Persinas ASAD)"
+        }
+    },
+    "FacilitiesSection": {
+        "title": "School Facilities",
+        "subtitle": "Supporting students' growth with comprehensive facilities.",
+        "items": {
+            "classroom": "Comfortable Classrooms",
+            "transport": "Shuttle Service",
+            "mosque": "School Mosque"
+        }
+    },
+    "SPMBSection": {
+        "title": "New Student Admissions",
+        "year": "2026/2027",
+        "description": "Join the big family of SDIT Annur. Registration is now open!",
+        "cta_register": "Register Now",
+        "cta_contact": "Contact Us",
+        "period_title": "Registration Period",
+        "period_desc": "January - Until Quota Full",
+        "fee_title": "Tuition Fee",
+        "fee_desc": "Rp 100.000 / month",
+        "fee_note": "*Affordable quality education",
+        "benefits_title": "New Student Benefits",
+        "benefit_free_items": "Free Learning Materials & Uniforms (3 Sets)"
+    },
+    "RequirementsSection": {
+        "title": "Registration Requirements",
+        "subtitle": "Prepare the following documents",
+        "items": {
+            "form": "Registration Form / Google Form",
+            "birth_certificate": "Copy of Birth Certificate",
+            "family_card": "Copy of Family Card (KK)",
+            "photo": "2x Pass Photos (3x4)"
+        }
+    },
+    "ContactSection": {
+        "title": "Contact & Location",
+        "address_label": "Address",
+        "address_value": "Dk. Langenharjo RT 10/RW 05 Ds. Kebonharjo, Kec. Polanharjo, Kab. Klaten, Central Java - 57474",
+        "whatsapp_label": "WhatsApp Information",
+        "whatsapp_cta": "Chat on WhatsApp"
+    },
+    "Common": {
+        "loading": "Loading...",
+        "read_more": "Read More"
+    }
+}

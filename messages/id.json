@@ -1,0 +1,90 @@
+{
+    "HomePage": {
+        "title": "SDIT Annur",
+        "subtitle": "Membentuk Generasi Berakhlak Mulia, Cerdas, dan Mandiri",
+        "cta_admission": "Daftar SPMB",
+        "cta_profile": "Profil Sekolah"
+    },
+    "Navigation": {
+        "home": "Beranda",
+        "profile": "Profil",
+        "program": "Program",
+        "facilities": "Fasilitas",
+        "contact": "Kontak"
+    },
+    "AboutSection": {
+        "title": "Tentang Sekolah",
+        "description": "SDIT Annur berkomitmen menyelenggarakan pendidikan dasar Islam terpadu yang berkualitas.",
+        "value_1_title": "Berkarakter Islami",
+        "value_1_desc": "Menanamkan aqidah yang lurus dan akhlak mulia sejak dini.",
+        "value_2_title": "Unggul Akademik",
+        "value_2_desc": "Kurikulum nasional yang diperkaya dengan metode pembelajaran inovatif.",
+        "value_3_title": "Kemandirian",
+        "value_3_desc": "Membangun kemandirian, kedisiplinan, dan jiwa sosial.",
+        "stats_students": "Siswa Aktif",
+        "stats_teachers": "Guru & Staf",
+        "stats_activities": "Ekstrakurikuler",
+        "stats_awards": "Prestasi"
+    },
+    "ProgramsSection": {
+        "title": "Program Pendidikan",
+        "subtitle": "Kombinasi kurikulum nasional dan nilai-nilai Islam untuk pendidikan holistik.",
+        "academic_title": "Kurikulum Akademik",
+        "academic_desc": "Pembelajaran wajib sesuai program pemerintah (Kurikulum Merdeka) yang mengedepankan literasi dan numerasi.",
+        "religious_title": "Program Keislaman & Karakter",
+        "religious_desc": "Pembentukan akhlak dan spiritual siswa melalui pembiasaan harian.",
+        "items": {
+            "morning": "Pagi: Asmaul Husna, Surat Pendek, Doa Harian & Sholat Dhuha",
+            "general": "Pembelajaran Umum Terintegrasi Nilai Islam",
+            "afternoon": "Siang: TPA & Pendalaman Materi PPG",
+            "prayer": "Sholat Dhuhur Berjamaah di Masjid",
+            "language": "Pembiasaan & Penguatan Basa Krama (Jawa Halus)",
+            "character": "Penguatan 29 Karakter Luhur",
+            "sports": "Bela Diri & Olahraga (Persinas ASAD)"
+        }
+    },
+    "FacilitiesSection": {
+        "title": "Fasilitas Sekolah",
+        "subtitle": "Menunjang tumbuh kembang siswa dengan fasilitas lengkap.",
+        "items": {
+            "classroom": "Ruang Kelas Nyaman",
+            "transport": "Armada Antar Jemput",
+            "mosque": "Masjid Sekolah"
+        }
+    },
+    "SPMBSection": {
+        "title": "Penerimaan Peserta Didik Baru",
+        "year": "2026/2027",
+        "description": "Bergabunglah bersama keluarga besar SDIT Annur. Pendaftaran telah dibuka!",
+        "cta_register": "Daftar Sekarang",
+        "cta_contact": "Hubungi Kami",
+        "period_title": "Periode Pendaftaran",
+        "period_desc": "Januari – Kuota Terpenuhi",
+        "fee_title": "SPP Bulanan",
+        "fee_desc": "Rp 100.000 / bulan",
+        "fee_note": "*Pendidikan berkualitas & terjangkau",
+        "benefits_title": "Fasilitas Peserta Didik Baru",
+        "benefit_free_items": "Gratis Buku Materi Pembelajaran & Seragam (3 Stel)"
+    },
+    "RequirementsSection": {
+        "title": "Syarat Pendaftaran",
+        "subtitle": "Persiapkan dokumen berikut",
+        "items": {
+            "form": "Formulir Pendaftaran / Google Form",
+            "birth_certificate": "Fotokopi Akta Kelahiran",
+            "family_card": "Fotokopi Kartu Keluarga (KK)",
+            "photo": "Pas Foto 3x4 (2 Lembar)"
+        }
+    },
+    "ContactSection": {
+        "title": "Kontak & Lokasi",
+        "address_label": "Alamat Lengkap",
+        "address_value": "Dk. Langenharjo RT 10/RW 05 Ds. Kebonharjo, Kec. Polanharjo, Kab. Klaten, Jawa Tengah - 57474",
+        "whatsapp_label": "Informasi WhatsApp",
+        "whatsapp_cta": "Chat via WhatsApp"
+    },
+    "Common": {
+        "loading": "Memuat...",
+        "read_more": "Baca Selengkapnya"
+    }
+}
