@@ -28,6 +28,21 @@ export const metadata: Metadata = {
     shortcut: "/images/logo-annur.png",
     apple: "/images/logo-annur.png",
   },
+    openGraph: {
+    title: "SDIT Annur",
+    description: "Sekolah Dasar Islam Terpadu Annur",
+    url: "https://sdit-annur.rizkichairulloh.my.id/", // WAJIB ganti dengan domain asli
+    siteName: "SDIT Annur",
+    images: [
+      {
+        url: "https://sdit-annur.rizkichairulloh.my.id/images/logo-annur.png", // WAJIB full URL
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
 };
 
 import { Navbar } from "@/components/layout/Navbar";
