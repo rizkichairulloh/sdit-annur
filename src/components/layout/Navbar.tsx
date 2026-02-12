@@ -8,6 +8,7 @@ import { ThemeToggle } from "./ThemeToggle"
 import { LanguageSwitcher } from "./LanguageSwitcher"
 import { Menu, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
+import Image from "next/image"
 
 export function Navbar() {
   const t = useTranslations('Navigation')
@@ -26,9 +27,13 @@ export function Navbar() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-            {/* Placeholder for Logo */}
-            <span className="text-primary font-bold text-xl">SA</span>
+          <div className="relative w-10 h-10 group-hover:scale-110 transition-transform">
+            <Image
+              src="/images/logo-annur.png"
+              alt="Logo SDIT Annur"
+              fill
+              className="object-contain"
+            />
           </div>
           <div>
             <h1 className="font-bold text-lg md:text-xl text-primary leading-tight">

@@ -23,6 +23,11 @@ const lateef = Lateef({
 export const metadata: Metadata = {
   title: "SDIT Annur",
   description: "Sekolah Dasar Islam Terpadu Annur",
+  icons: {
+    icon: "/images/logo-annur.png",
+    shortcut: "/images/logo-annur.png",
+    apple: "/images/logo-annur.png",
+  },
 };
 
 import { Navbar } from "@/components/layout/Navbar";
@@ -44,7 +49,7 @@ export default async function RootLayout({
   if (!routing.locales.includes(locale as "id" | "en")) {
     notFound();
   }
- 
+
   // Providing all messages to the client
   // side is the easiest way to get started
   const messages = await getMessages();
