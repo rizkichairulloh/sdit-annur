@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl"
 import { FadeIn, SlideUp } from "@/components/animations/MotionWrappers"
 import { Button } from "@/components/ui/button"
 import { Link } from "@/i18n/routing"
-import { Calendar, Wallet, Gift } from "lucide-react"
+import { Calendar, Wallet, Gift, Download } from "lucide-react"
 
 export function SPMBInfo() {
   const t = useTranslations('SPMBSection')
@@ -25,13 +25,19 @@ export function SPMBInfo() {
               <p className="text-lg text-muted-foreground mb-8">
                 {t('description')}
               </p>
-              
+
               <div className="flex flex-col sm:flex-row gap-4">
-                 <Button asChild size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-bold text-lg px-8">
-                    <a href="https://docs.google.com/forms/d/1O4pjhGsiKBCMnlAGMT3cwTxuSSses3xnINIOFaX47Rc/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer">
-                      {t('cta_register')}
-                    </a>
-                 </Button>
+                <Button asChild size="lg" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 font-bold text-lg px-8">
+                  <a href="https://docs.google.com/forms/d/1O4pjhGsiKBCMnlAGMT3cwTxuSSses3xnINIOFaX47Rc/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer">
+                    {t('cta_register')}
+                  </a>
+                </Button>
+                <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10 font-medium">
+                  <a href="/formulir.pdf" download="Formulir_Pendaftaran_SDIT_Annur.pdf">
+                    <Download className="mr-2 h-4 w-4" />
+                    {t('cta_download')}
+                  </a>
+                </Button>
               </div>
             </FadeIn>
           </div>
@@ -39,43 +45,43 @@ export function SPMBInfo() {
           <div className="space-y-6">
             <SlideUp delay={0.2}>
               <div className="bg-background rounded-2xl p-6 shadow-lg border border-primary/20 flex items-start gap-4">
-                 <div className="bg-primary/10 p-3 rounded-xl text-primary">
-                    <Calendar className="h-8 w-8" />
-                 </div>
-                 <div>
-                    <h3 className="text-xl font-bold mb-1">{t('period_title')}</h3>
-                    <p className="text-muted-foreground">{t('period_desc')}</p>
-                 </div>
+                <div className="bg-primary/10 p-3 rounded-xl text-primary">
+                  <Calendar className="h-8 w-8" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-1">{t('period_title')}</h3>
+                  <p className="text-muted-foreground">{t('period_desc')}</p>
+                </div>
               </div>
             </SlideUp>
 
             <SlideUp delay={0.3}>
               <div className="bg-background rounded-2xl p-6 shadow-lg border border-secondary/20 flex items-start gap-4">
-                 <div className="bg-secondary/10 p-3 rounded-xl text-secondary dark:text-secondary-foreground">
-                    <Wallet className="h-8 w-8" />
-                 </div>
-                 <div>
-                    <h3 className="text-xl font-bold mb-1">{t('fee_title')}</h3>
-                    <p className="text-muted-foreground">{t('fee_desc')}</p>
-                    <p className="text-sm text-muted-foreground mt-2 italic">{t('fee_note')}</p>
-                 </div>
+                <div className="bg-secondary/10 p-3 rounded-xl text-secondary dark:text-secondary-foreground">
+                  <Wallet className="h-8 w-8" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-1">{t('fee_title')}</h3>
+                  <p className="text-muted-foreground">{t('fee_desc')}</p>
+                  <p className="text-sm text-muted-foreground mt-2 italic">{t('fee_note')}</p>
+                </div>
               </div>
             </SlideUp>
 
             <SlideUp delay={0.4}>
               <div className="bg-background rounded-2xl p-6 shadow-lg border border-accent/20 flex items-start gap-4">
-                 <div className="bg-accent/10 p-3 rounded-xl text-accent-foreground">
-                    <Gift className="h-8 w-8 text-green-600" />
-                 </div>
-                 <div>
-                    <h3 className="text-xl font-bold mb-1">{t('benefits_title')}</h3>
-                    <p className="text-muted-foreground">{t('benefit_free_items')}</p>
-                 </div>
+                <div className="bg-accent/10 p-3 rounded-xl text-accent-foreground">
+                  <Gift className="h-8 w-8 text-green-600" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-1">{t('benefits_title')}</h3>
+                  <p className="text-muted-foreground">{t('benefit_free_items')}</p>
+                </div>
               </div>
             </SlideUp>
           </div>
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   )
 }
